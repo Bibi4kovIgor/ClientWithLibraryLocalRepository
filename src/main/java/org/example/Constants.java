@@ -1,4 +1,4 @@
-package org.lib;
+package org.example;
 
 import edu.demo.Accessory;
 import edu.demo.OperationMemory;

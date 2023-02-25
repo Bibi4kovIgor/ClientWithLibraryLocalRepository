@@ -1,5 +1,13 @@
-package org.example;public class Main {
+package org.example;
+
+import edu.demo.Computer;
+import edu.demo.ComputerImplementation;
+
+public class Main implements Constants {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Computer computer = new ComputerImplementation(
+                HIGH_PRODUCTIVITY_COMPUTER_NAME,
+                ACCESSORIES);
+        System.out.println(computer.getComputerDescription());
     }
 }
